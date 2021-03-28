@@ -1,0 +1,36 @@
+body {
+  background-color: #eeeeee;
+}
+
+.container {
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.user {
+  margin: 20px;
+}
+
+input {
+  background-color: #ffffff;
+  border: none;
+  margin: 15px 0;
+}
+
+.response {
+  margin: 20px;
+}
+
+.range {
+  width: 10%;
+}
+
+#operator {
+  margin: auto;
+  width: 30%;
+}

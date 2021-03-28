@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Math Practice</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Math Practice</h1>
+      <div class="">
+        <div class="">
+          <div class="">
+            <h2>Question</h2>
+            <h3 id="question">5 + 5</h3>
+            <button class="btn btn-primary" id="generate">New Question</button>
+          </div>
+
+          <div class="user">
+            <h2>Your Response:</h2>
+            <input type="text" name="response" id="response" /> <br />
+            <button class="btn btn-success" id="submitButton" type="submit">
+              Submit
+            </button>
+            <button class="btn btn-danger" id="quitButton" type="submit">
+              Give up
+            </button>
+          </div>
+
+          <div class="response">
+            <h2>Correct Answer:</h2>
+            <h3 id="correctAnswer">?</h3>
+            <h3 id="statement"></h3>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="">
+          <h3>Pick a range</h3>
+          <input
+            type="number"
+            name="min"
+            id="min"
+            placeholder="0"
+            class="range"
+          />
+          <input
+            type="number"
+            name="max"
+            id="max"
+            placeholder="10"
+            class="range"
+          />
+
+          <h3>Pick an operator</h3>
+          <select class="form-control" name="" id="operator">
+            <option value="+" selected>Addition</option>
+            <option value="-">Subtraction</option>
+            <option value="*">Multiplication</option>
+            <!-- <option value="/" selected>Division</option> -->
+          </select>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
